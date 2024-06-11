@@ -6,6 +6,6 @@ document.getElementById('login-form').addEventListener('submit', function (e) {
     // Perform login logic here
     console.log('Email:', email, 'Password:', password);
     // Redirect to courses page upon successful login
-    window.location.href = 'courses.html';
+    window.location.href = 'index.html';
   });
   

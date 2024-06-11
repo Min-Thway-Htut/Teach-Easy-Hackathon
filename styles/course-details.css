@@ -3,18 +3,18 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f4f4f4;
+  background-color: #09223c;
 }
 
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #CDDC28;
+  color: #09223c;
   padding: 1em;
   text-align: center;
 }
 
 nav a {
-  color: #fff;
+  color: #09223c;
   margin: 0 1em;
   text-decoration: none;
 }

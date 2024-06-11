@@ -2,12 +2,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #09223c;
 }
 
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #CDDC28;
+  color: #09223c;
   padding: 1em 0;
 }
 
@@ -37,15 +37,16 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color:#09223c;
   text-decoration: none;
   padding: 0.5em 1em;
   border-radius: 5px;
   transition: background-color 0.3s;
+  font-size: 20px;
 }
 
 nav ul li a:hover {
-  background-color: #555;
+  background-color: #c7c7c7;
 }
 
 main {
@@ -55,7 +56,13 @@ main {
 }
 
 h2 {
-  color: #333;
+  color: white;
+  font-size: 27px;
+}
+
+img{
+  width: 100px;
+  height: 60px;
 }
 
 #course-list {
@@ -68,8 +75,15 @@ h2 {
 .course-item, .course-detail, .profile-item {
   margin-bottom: 1em;
   padding: 1em;
-  border: 1px solid #ccc;
+  border: 2px solid #545454;
   border-radius: 5px;
 }
+
+.course-item h3{
+  font-size: 1.5em;
+  color: green;
+}
+
+
 
   
