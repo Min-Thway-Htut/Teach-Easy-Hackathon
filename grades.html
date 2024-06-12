@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Module Grades and GPA</title>
+</head>
+<body>
+  <header>
+    <h1>Module Grades and GPA Calculator</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="assignment.html">Assignments</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="form-section">
+      <form id="grade-form">
+        <div class="form-group">
+          <label for="module">Module Name:</label>
+          <input type="text" id="module" name="module" required>
+        </div>
+        <div class="form-group">
+          <label for="grade">Grade (%):</label>
+          <input type="number" id="grade" name="grade" min="0" max="100" required>
+        </div>
+        <div class="form-group">
+          <label for="credits">Credits:</label>
+          <input type="number" id="credits" name="credits" required>
+        </div>
+        <button type="submit">Add Grade</button>
+      </form>
+    </section>
+    <section class="results-section">
+      <h2>Module Grades</h2>
+      <div id="grades-container"></div>
+      <h2>GPA: <span id="gpa">0.00</span></h2>
+    </section>
+  </main>
+  <script src="scripts/grades.js"></script>
+</body>
+</html>

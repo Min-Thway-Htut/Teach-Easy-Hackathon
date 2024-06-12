@@ -12,17 +12,31 @@ body {
     padding: 1em 0;
   }
   
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 1em;
+  }
+  
+  nav ul li a {
+    color: #09223c;
+    text-decoration: none;
+  }
+  
   main {
     padding: 2em;
   }
   
-  .form-section, .profile-section {
+  .form-section {
     background-color: #fff;
     padding: 2em;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    margin: 2em auto;
+    margin-bottom: 2em;
   }
   
   .form-group {
@@ -36,7 +50,8 @@ body {
     color: #333;
   }
   
-  .form-group input {
+  .form-group input,
+  .form-group textarea {
     width: 100%;
     padding: 0.5em;
     border: 1px solid #ccc;
@@ -45,8 +60,8 @@ body {
   
   button {
     padding: 0.75em 2em;
-    background-color: #CDDC28;
-    color: #09223c;
+    background-color: #09223c;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -54,18 +69,29 @@ body {
   }
   
   button:hover {
-    background-color: #a4b020;
+    background-color: #555;
   }
   
-  #user-photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 1em;
+  .results-section {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  #logout {
-    display: inline-block;
-    margin-top: 1em;
+  .results-section h2 {
+    color: #333;
+  }
+  
+  .assignment-item {
+    background-color: #f9f9f9;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .assignment-item p {
+    margin: 0.25em 0;
   }
   
